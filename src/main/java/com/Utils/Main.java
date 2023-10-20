@@ -7,6 +7,8 @@ public class Main {
 
         int k = FirstOccurrenceOfString.occurrence("sadbutsad","sad");
         System.out.println("k = " + k);
-
+        String s="ab#c", t= "ad#c";
+        Boolean Equals = BackspaceStringCompare.backspaceCompare(s,t);
+        System.out.println("backSpace Comparison of String ="+Equals);
     }
 }
